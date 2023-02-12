@@ -280,7 +280,9 @@ footer {
     url(../images/people-office-1.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  max-width: 1440рх;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -310,6 +312,10 @@ footer {
 .strategy-cart {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
+}
+
+.strategy-icons {
+  margin-bottom: 8px;
 }
 
 .strategy-cart:last-child {
@@ -492,8 +498,9 @@ footer {
 .btn-filtrs:focus {
   background: #404bbf;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 1px solid #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid #404bbf;
 }
 
 .portfolio-main {
@@ -524,19 +531,22 @@ footer {
 }
 
 .portfolio-cart {
-  display: inline-block;
+ 
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
   background-color: #ffffff;
+}
+
+.portfolio-link-cart {
+  display: inline-block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-cart:is(:hover) {
+.portfolio-link-cart:is(:hover) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    
-  }
+}
 
 .portfolio-cart:nth-child(3n) {
   margin-right: 0px;
